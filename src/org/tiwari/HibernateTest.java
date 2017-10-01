@@ -21,6 +21,7 @@ public class HibernateTest {
 		que.executeUpdate();
 		//Transaction tr = session.beginTransaction();
 		tr.commit();
+		// comment
 		System.out.println("program end");
 
 	}
